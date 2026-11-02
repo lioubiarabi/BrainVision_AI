@@ -1,0 +1,103 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# IDE et systeme
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Secrets et variables locales
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+airflow/logs/
+
+# ==============================
+# MLflow local
+# ==============================
+mlruns/
+mlartifacts/
+
+# ==============================
+# Fichiers temporaires
+# ==============================
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ==============================
+# Streamlit
+# ==============================
+.streamlit/secrets.toml
+
+# ==============================
+# Docker
+# ==============================
+*.tar
+*.tar.gz
+
+# ==============================
+# OS
+# ==============================
+$RECYCLE.BIN/
+
+# Datasets
+data/
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+# Airflow logs
+airflow/logs/
+
+# Base de donnees locale
+*.db
+.git_backup_avant_reinitialisation/
+
+
+# Modeles entraines
+models/
+*.keras
+*.h5
+*.weights
+*.onnx
+*.pt
+
+airflow/config/airflow.cfg

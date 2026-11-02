@@ -1,0 +1,33 @@
+
+# Deep Learning - classification
+tensorflow
+
+# Computer Vision - traitement des images
+opencv-python
+Pillow
+
+# Data analysis et visualisation
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+
+# Detection des tumeurs - YOLOv8
+ultralytics
+
+# Suivi des experiences
+mlflow
+
+# API REST
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Interface utilisateur
+streamlit
+requests
+
+# Tests
+pytest
+httpx
