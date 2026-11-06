@@ -1,0 +1,85 @@
+{
+    "classification": {
+        "train": {
+            "glioma": 1134,
+            "meningioma": 1144,
+            "notumor": 1212,
+            "pituitary": 1218
+        },
+        "val": {
+            "glioma": 243,
+            "meningioma": 245,
+            "notumor": 260,
+            "pituitary": 261
+        },
+        "test": {
+            "glioma": 243,
+            "meningioma": 246,
+            "notumor": 259,
+            "pituitary": 261
+        }
+    },
+    "detection": {
+        "Train": {
+            "Glioma": {
+                "images": 1153,
+                "labels": 1153,
+                "images_without_labels": [],
+                "labels_without_images": []
+            },
+            "Meningioma": {
+                "images": 1449,
+                "labels": 1449,
+                "images_without_labels": [],
+                "labels_without_images": []
+            },
+            "No Tumor": {
+                "images": 711,
+                "labels": 711,
+                "images_without_labels": [],
+                "labels_without_images": []
+            },
+            "Pituitary": {
+                "images": 1424,
+                "labels": 1424,
+                "images_without_labels": [],
+                "labels_without_images": []
+            }
+        },
+        "Val": {
+            "Glioma": {
+                "images": 136,
+                "labels": 136,
+                "images_without_labels": [],
+                "labels_without_images": []
+            },
+            "Meningioma": {
+                "images": 140,
+                "labels": 140,
+                "images_without_labels": [],
+                "labels_without_images": []
+            },
+            "No Tumor": {
+                "images": 100,
+                "labels": 100,
+                "images_without_labels": [
+                    "image(55)",
+                    "image(61)"
+                ],
+                "labels_without_images": [
+                    "image(53)",
+                    "image(60)"
+                ]
+            },
+            "Pituitary": {
+                "images": 136,
+                "labels": 136,
+                "images_without_labels": [],
+                "labels_without_images": []
+            }
+        }
+    },
+    "warnings": [
+        "Val/No Tumor: 2 images sans labels, 2 labels sans images"
+    ]
+}
