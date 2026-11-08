@@ -1,0 +1,2 @@
+model,test_loss,test_accuracy,total_images,correct_predictions,incorrect_predictions
+InceptionV3,0.3742581009864807,0.8473736643791199,1009,855,154
