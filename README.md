@@ -259,7 +259,6 @@ docker run --rm -p 8501:8501 `
 | API Classification | http://localhost:8000/docs |
 | API Détection | http://localhost:8001/docs |
 | Airflow | http://localhost:8080 |
-| MLflow | Selon la configuration du serveur MLflow |
 
 ## 11. Résultats
 
